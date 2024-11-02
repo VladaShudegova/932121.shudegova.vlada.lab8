@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Task№9</title>
+</head>
+<body>
+    <template id="listItem">
+        <div class="list-item">
+            <input type="text">
+            <input type="text">
+            <button type="button" class="up">&#8593;</button>
+            <button type="button" class="down">&#8595;</button>
+            <button type="button" class="remove-item"> x </button>
+        </div>
+    </template>
+    <div id="list"></div>
+    <div>
+        <button id="addButton" type="button">Добавить элемент</button>
+    </div>
+    <div>
+        <button id="saveButton" type="button">Сохранить</button>
+    </div>
+    <pre id="showSaved"></pre>
+</body>
+</html>
